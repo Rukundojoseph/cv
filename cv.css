@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+.navbar{ 
+display: block;
+margin-left: 2px;
+margin-top: 21px;
+width: 60%;
+top: 0;
+position: fixed;
+border-radius: 5px;
+background-color: white;
+}
+.nav_img{
+    
+width: 168px;
+height: 199px;
+margin-left: 2px;
+border-radius: 209px;
+}
+.nav_h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+
+color: #204C66;
+}
+.nav_w{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 14px;
+color: #204C66;
+}
+.name_i{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.prof_head{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24;
+line-height: 19px;
+color: #204C66;
+margin-left: 12px;
+margin-top: 10px;
+}
+.cv{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+.line{
+    width: 270px;
+    height: 0;
+    border: 0.25px solid #204C66;
+    margin-top: 10px;
+
+}
+.prof_main{
+    margin-top: 50px;
+    width: 500px;
+    color: #204C66;
+    
+}
+.prof_main div{
+ margin-top: 10px;
+}
+.school{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #204C66;
+margin-top: 5px;
+}
+.year{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+color: #204C66;
+margin-top: 5px;
+}
+.prof_skill{
+display: flex;
+flex-direction: row;
+margin-top: 300p;
+}
+.skill{
+    width: 40%;
+}
+.skill_main{
+    margin-top: 30px;
+    padding-top: 10px ;
+}
+body{
+    background: white;
+}
+.edu_lang{
+    display: flex;
+    flex-direction: row;
+}
+.lang{
+    width: 40%
+}
+.lang_cont{
+    float: right;
+    margin-top: -280px;
+    margin-right: 35px;
+  
+
+}
+.icon{
+    width: 20px;
+    height: 24px;
+
+}
+.soc{
+    display: flex;
+    flex-direction: row;
+}
+.nav_new{
+    background-color: yellow;
+}
+.all{
+    margin-top: 300px;
+}
+@media only screen and (max-width: 1000px) {
+    body{
+        display: unset;
+    }
+   
+    .lang_cont{
+        margin-top: unset;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        bottom: 0;
+        float: none;
+    }
+    .navbar{
+        width: unset;
+        width: 80%;
+        font-size: small;
+    }
+    .cv{
+        width: unset;
+        width: 80%;
+        margin: auto;
+    }
+    .prof_main{
+        display: unset;
+    }
+    .prof_skill{
+        display: unset;
+    }
+
+    .nav_h1{
+        font-size: 24;
+    }
+}
