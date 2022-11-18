@@ -144,6 +144,7 @@ body{
         bottom: 0;
         float: none;
         margin-left: unset;
+        margin-right: unset;
     }
     .navbar{
         width: unset;
